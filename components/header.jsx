@@ -26,15 +26,7 @@ async function Header() {
 
       
       <div className="flex items-center gap-2">
-      <Link href="/events?create=true">
-  <Button 
-    variant="default" 
-    className="bg-gray-900 hover:bg-white text-white hover:text-black px-4 py-2 rounded-md text-sm font-medium flex items-center gap-2 border border-white"
-  >
-    <PenBox size={16} />
-    <span className="hidden sm:inline">Créer un événement</span>
-  </Button>
-</Link>
+      
 
 <SignedOut>
   <SignInButton forceRedirectUrl="/dashboard">
